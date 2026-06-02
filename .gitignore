@@ -1,0 +1,9 @@
+# 忽略所有的 QuickDraw 資料集檔案
+*.npy
+
+# 忽略 Jupyter Notebook 產生的隱藏檢查點
+.ipynb_checkpoints/
+
+# 忽略最終要繳交的壓縮包
+*.zip
+*.rar
