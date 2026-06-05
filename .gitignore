@@ -1,9 +1,20 @@
-# 忽略所有的 QuickDraw 資料集檔案
-*.npy
-
-# 忽略 Jupyter Notebook 產生的隱藏檢查點
+# 隱藏的系統與快取檔案
+__pycache__/
 .ipynb_checkpoints/
+.DS_Store
 
-# 忽略最終要繳交的壓縮包
+# 虛擬環境 (絕對不要推上去！)
+env/
+venv/
+ml_final/
+*.env
+
+# 大型資料集 (只上傳程式碼與圖表，資料讓別人自己下載)
+*.csv
+*.npy
+*.npz
 *.zip
-*.rar
+
+# 模型存檔
+*.joblib 
+*.h5
